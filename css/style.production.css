@@ -6,7 +6,7 @@
 */
 
 :root { /*light gray*/ /*light teal; med/dark: #66b3b3, #008080;*/ /*med gray; dark gray: #474747;*/ /*plum purple*/ /*deep yellow*/
-	
+
 }
 * {
 	-webkit-box-sizing: border-box;
@@ -56,7 +56,7 @@ a:active {
 	display: flex;
 	width: 100%;
 	padding: 20px;
-	background-color: #bfdfdf;
+	background-color: #66b3b3;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
@@ -239,7 +239,7 @@ section {
 		-ms-grid-columns: 1fr 10px 1fr;
 		grid-template-columns: 1fr 1fr;
 	}
-	
+
 }
 @media all and  (max-width: 500px) {
 	.project-list {
