@@ -5,9 +5,20 @@
 * Browsers: last 4 version
 */
 
-:root { /*light gray*/ /*light teal; med/dark: #66b3b3, #008080;*/ /*med gray; dark gray: #474747;*/ /*plum purple*/ /*deep yellow*/
+/* Notes:
+Alternative Pallete
+text color (xyz): #357b70;
+secondary color (dark gray): #474747;
+tertiary color (dark olive green): #556b2f;
+	(deep red): #860d0d;
 
+
+contrast ratio checker: https://contrast-ratio.com/#white-on-%23357b70;
+*/
+
+:root { /*light gray*/ /*light teal: #bfdfdf; med/dark: #66b3b3, #008080;*/ /*med gray; dark gray: #474747;*/ /*plum purple*/ /*deep yellow*/
 }
+
 * {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
@@ -20,36 +31,47 @@ body {
 	line-height: 1.6;
 	background-color: #f5f5f5;
 }
+
 h1 {
 	font-weight: 700;
 	font-size: 30px;
 }
+
 h2 {
 	font-weight: 700;
 	font-size: 30px;
 }
+
 h3 {
 	font-weight: 700;
 	font-size: 30px;
 }
+
 h2 {
 	font-size: 24px;
 }
+
 h3 {
 	font-size: 18px;
 }
+
 a {
 	color: #000;
 }
+
 a:visited {
 	color: #000;
 }
-a:hover, a:focus {
+
+a:hover,
+a:focus {
 	text-decoration: none;
 }
+
 a:active {
 	color: #751947;
 }
+
 .page-header {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -61,33 +83,40 @@ a:active {
 	    -ms-flex-align: center;
 	        align-items: center;
 }
+
 .page-header__item {
 	-webkit-box-flex: 0;
 	    -ms-flex: 0 1 200px;
 	        flex: 0 1 200px;
 }
+
 .page-header__item:last-child {
 	-webkit-box-flex: 1;
 	    -ms-flex-positive: 1;
 	        flex-grow: 1;
 	text-align: right;
 }
+
 .logo {
 	max-width: 70px;
 	height: auto;
 	margin-right: 15px;
 }
+
 .logo-name {
 	max-width: 300px;
 	height:	auto;
 }
+
 .navigation-list {
 	list-style-type: none;
 }
+
 .navigation-list li {
 	display: inline-block;
 	margin-left: 15px;
 }
+
 .navigation-list__item--active {
 	text-decoration: none;
 }
@@ -119,14 +148,20 @@ button {
 	-o-transition: 0.2s opacity;
 	transition: 0.2s opacity;
 }
-button:hover, button:focus, .button:hover, .button:focus {
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
 	cursor: pointer;
 	opacity: 0.8;
 }
+
 .button_secondary {
 	background-color: #D6A300;
 	color: #000;
 }
+
 .button-practice * {
 	display: none;
 }
@@ -135,6 +170,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	max-width: 700px;
 	margin: 0 auto;
 }
+
 .profile__portrait {
 	float: left;
 	max-height: 250px;
@@ -154,14 +190,17 @@ button:hover, button:focus, .button:hover, .button:focus {
 	        flex-direction: column;
 	text-align: center;
 }
+
 .page-footer__icon-source {
 	line-height: 2;
 	display: inline-block;
 	vertical-align: middle;
 }
+
 .page-footer__icon-source:last-child {
 	font-size: 12px;
 }
+
 section {
 	margin: 20px;
 	text-align: center;
@@ -186,6 +225,10 @@ section {
 	    -ms-flex: 0 1 50px;
 	        flex: 0 1 50px;
 	margin: 15px;
+}
+
+.table {
+	text-align: center;
 }
 
 .project-list {
@@ -222,6 +265,7 @@ section {
 		width: auto;
 	}
 }
+
 @media all and  (max-width: 750px) {
 	.project-list {
 		grid-gap: 10px;
@@ -234,6 +278,7 @@ section {
 		font-size: 22px;
 	}
 }
+
 @media all and  (min-width: 500px) and (max-width: 750px) {
 	.project-list {
 		-ms-grid-columns: 1fr 10px 1fr;
@@ -241,12 +286,14 @@ section {
 	}
 
 }
+
 @media all and  (max-width: 500px) {
 	.project-list {
 		-ms-grid-columns: 1fr;
 		grid-template-columns: 1fr;
 	}
 }
+
 @-webkit-keyframes cloud-move {
   from {
     -webkit-transform: translate(0, 60px);
@@ -257,6 +304,7 @@ section {
             transform: translate(650px, 60px);
   }
 }
+
 @keyframes cloud-move {
   from {
     -webkit-transform: translate(0, 60px);
@@ -267,10 +315,12 @@ section {
             transform: translate(650px, 60px);
   }
 }
+
 .cloud-front {
   -webkit-animation: 15s cloud-move infinite alternate linear;
           animation: 15s cloud-move infinite alternate linear;
 }
+
 @-webkit-keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(450px, 40px);
@@ -281,6 +331,7 @@ section {
             transform: translate(0, 40px);
   }
 }
+
 @keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(450px, 40px);
@@ -291,10 +342,12 @@ section {
             transform: translate(0, 40px);
   }
 }
+
 .cloud-back {
   -webkit-animation: 10s cloud-move-reverse infinite alternate linear;
           animation: 10s cloud-move-reverse infinite alternate linear;
 }
+
 @-webkit-keyframes pulse {
 	0% {
 		-webkit-transform: scale(0.95, 0.95);
@@ -305,6 +358,7 @@ section {
 		        transform: scale(1, 1);
 	}
 }
+
 @keyframes pulse {
 	0% {
 		-webkit-transform: scale(0.95, 0.95);
@@ -315,6 +369,7 @@ section {
 		        transform: scale(1, 1);
 	}
 }
+
 .sun-inner {
 	-webkit-animation: 5s pulse ease-out infinite normal;
 	        animation: 5s pulse ease-out infinite normal;
