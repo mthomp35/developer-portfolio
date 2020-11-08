@@ -4,14 +4,14 @@ text color (xyz): #357b70;
 secondary color (dark gray): #474747;
 tertiary color (dark olive green): #556b2f;
 	(deep red): #860d0d;
-	
+
 
 contrast ratio checker: https://contrast-ratio.com/#white-on-%23357b70;
 */
 
 :root {
 	--primary-color: #f5f5f5; /*light gray*/
-	--secondary-color: #bfdfdf; /*light teal; med/dark: #66b3b3, #008080;*/
+	--secondary-color: #66b3b3; /*light teal: #bfdfdf; med/dark: #66b3b3, #008080;*/
 	--gray: #b5b5b5; /*med gray; dark gray: #474747;*/
 	--purple: #751947; /*plum purple*/
 	--yellow: #D6A300; /*deep yellow*/
@@ -19,7 +19,7 @@ contrast ratio checker: https://contrast-ratio.com/#white-on-%23357b70;
 	--body-font-size: 16px;
 	--header-font-weight: 700;
 	--nav-list-color: #000;
-	
+	--link-color: #008080;
 }
 
 * {
@@ -34,8 +34,8 @@ body {
 	background-color: var(--primary-color);
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3 {
 	font-weight: var(--header-font-weight);
 	font-size: 30px;
@@ -57,7 +57,7 @@ a:visited {
 	color: var(--nav-list-color);
 }
 
-a:hover, 
+a:hover,
 a:focus {
 	text-decoration: none;
 }
@@ -107,7 +107,7 @@ a:active {
 	text-decoration: none;
 }
 
-button, 
+button,
 .button {
 	border: none;
 	font-family: inherit;
@@ -120,9 +120,9 @@ button,
 	transition: 0.2s opacity;
 }
 
-button:hover, 
-button:focus, 
-.button:hover, 
+button:hover,
+button:focus,
+.button:hover,
 .button:focus {
 	cursor: pointer;
 	opacity: 0.8;
@@ -186,6 +186,10 @@ section {
 	margin: 15px;
 }
 
+.table {
+	text-align: center;
+}
+
 .project-list {
 	display: inline-block;
 	width: 100%;
@@ -231,7 +235,7 @@ section {
 	.project-list {
 		grid-template-columns: 1fr 1fr;
 	}
-	
+
 }
 
 @media all and  (max-width: 500px) {
