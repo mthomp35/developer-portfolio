@@ -12,12 +12,8 @@ secondary color (dark gray): #474747;
 tertiary color (dark olive green): #556b2f;
 	(deep red): #860d0d;
 
-
 contrast ratio checker: https://contrast-ratio.com/#white-on-%23357b70;
 */
-
-:root { /*light gray*/ /*light teal: #bfdfdf; med/dark: #66b3b3, #008080;*/ /*med gray; dark gray: #474747;*/ /*plum purple*/ /*deep yellow*/
-}
 
 * {
 	-webkit-box-sizing: border-box;
@@ -158,7 +154,7 @@ button:focus,
 }
 
 .button_secondary {
-	background-color: #D6A300;
+	background-color: #d6a300;
 	color: #000;
 }
 
