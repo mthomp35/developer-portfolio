@@ -5,7 +5,6 @@ secondary color (dark gray): #474747;
 tertiary color (dark olive green): #556b2f;
 	(deep red): #860d0d;
 
-
 contrast ratio checker: https://contrast-ratio.com/#white-on-%23357b70;
 */
 
@@ -14,7 +13,7 @@ contrast ratio checker: https://contrast-ratio.com/#white-on-%23357b70;
 	--secondary-color: #66b3b3; /*light teal: #bfdfdf; med/dark: #66b3b3, #008080;*/
 	--gray: #b5b5b5; /*med gray; dark gray: #474747;*/
 	--purple: #751947; /*plum purple*/
-	--yellow: #D6A300; /*deep yellow*/
+	--yellow: #d6a300; /*deep yellow*/
 	--body-font-weight: 400;
 	--body-font-size: 16px;
 	--header-font-weight: 700;
