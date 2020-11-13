@@ -5,9 +5,6 @@
 * Browsers: last 4 version
 */
 
-:root { /*light gray*/ /*light teal: #bfdfdf; med/dark: #66b3b3, #008080;*/ /*med gray; dark gray: #474747;*/ /*plum purple*/ /*deep yellow*/
-}
-
 * {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
@@ -71,6 +68,8 @@ a:active {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 }
 
 .page-header__item {
@@ -79,16 +78,12 @@ a:active {
 	        flex: 0 1 200px;
 }
 
-.page-header__item:nth-child(2) {
-	background-color: #fff;
-}
-
 .page-header__item:last-child {
 	-webkit-box-flex: 1;
 	    -ms-flex-positive: 1;
 	        flex-grow: 1;
 	text-align: right;
-	background-color: #751947;
+	overflow: hidden;
 }
 
 .logo {
@@ -98,7 +93,7 @@ a:active {
 }
 
 .logo-name {
-	max-width: 300px;
+	max-width: 75%;
 	height:	auto;
 }
 
