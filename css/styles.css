@@ -71,6 +71,7 @@ a:active {
 	padding: 20px;
 	background-color: var(--secondary-color);
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .page-header__item {
@@ -80,6 +81,7 @@ a:active {
 .page-header__item:last-child {
 	flex-grow: 1;
 	text-align: right;
+	overflow: hidden;
 }
 
 .logo {
