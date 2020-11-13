@@ -185,6 +185,11 @@ section {
 	margin: 15px;
 }
 
+.desert-landscape__image {
+	width: 80%;
+	height: auto;
+}
+
 table {
 	margin-left: auto;
 	margin-right: auto;

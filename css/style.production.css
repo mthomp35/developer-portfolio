@@ -5,15 +5,8 @@
 * Browsers: last 4 version
 */
 
-/* Notes:
-Alternative Pallete
-text color (xyz): #357b70;
-secondary color (dark gray): #474747;
-tertiary color (dark olive green): #556b2f;
-	(deep red): #860d0d;
-
-contrast ratio checker: https://contrast-ratio.com/#white-on-%23357b70;
-*/
+:root { /*light gray*/ /*light teal: #bfdfdf; med/dark: #66b3b3, #008080;*/ /*med gray; dark gray: #474747;*/ /*plum purple*/ /*deep yellow*/
+}
 
 * {
 	-webkit-box-sizing: border-box;
@@ -221,6 +214,11 @@ section {
 	    -ms-flex: 0 1 50px;
 	        flex: 0 1 50px;
 	margin: 15px;
+}
+
+.desert-landscape__image {
+	width: 80%;
+	height: auto;
 }
 
 table {
