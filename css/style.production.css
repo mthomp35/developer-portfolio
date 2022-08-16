@@ -235,6 +235,10 @@ table {
           justify-content: center;
 }
 
+.project-img {
+  max-width: 200px;
+}
+
 @supports (display: grid) {
   .project-list {
     display: -ms-grid;
