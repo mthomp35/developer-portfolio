@@ -235,6 +235,10 @@ table {
           justify-content: center;
 }
 
+.project-img {
+  max-width: 200px;
+}
+
 @supports (display: grid) {
   .project-list {
     display: -ms-grid;
@@ -260,10 +264,6 @@ table {
     -ms-grid-row-span: 2;
     grid-row: 1 / 3;
     width: auto;
-  }
-  
-  .project-list__item:img {
-    max-width: 200px;
   }
 }
 
